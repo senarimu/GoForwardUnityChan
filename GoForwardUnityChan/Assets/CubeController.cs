@@ -6,11 +6,9 @@ public class CubeController : MonoBehaviour
 {
     private float speed = -12;
 
-    private float groundLevel = -3.0f;
-
     private float deadLine = -10;
 
-
+    
 
     // Start is called before the first frame update
     void Start()
@@ -27,15 +25,13 @@ public class CubeController : MonoBehaviour
         {
             Destroy(gameObject);
         }
-
-        bool isGround = (transform.position.y > this.groundLevel) ? false : true;
-
-        GetComponent<AudioSource>().volume = (isGround) ? 1 : 0;
     }
-        void OnCollisionEnter(Collision col)
-        {
-            if (col.gameObject.tag == "CobeTag")
-                GetComponent<AudioSource>().Play();
+    
+    }
 
-        }
-    }     
+
+
+    
+
+
+       

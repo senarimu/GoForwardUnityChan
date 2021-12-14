@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 1453383219602152460}
   - component: {fileID: 8405922738472239241}
   - component: {fileID: 9143479703183667596}
+  - component: {fileID: 9008341738115447075}
   m_Layer: 0
   m_Name: CubePrefab
   m_TagString: CobeTag
@@ -156,10 +157,10 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 79e6e40a28d2348e4ac9ba15580e0227, type: 3}
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
-  Loop: 1
+  Loop: 0
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -241,3 +242,16 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &9008341738115447075
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3577540524499529255}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be8e627c2ee194a75aa56f3294ad1321, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sound: {fileID: 8300000, guid: 79e6e40a28d2348e4ac9ba15580e0227, type: 3}

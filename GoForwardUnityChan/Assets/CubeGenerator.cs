@@ -20,7 +20,7 @@ public class CubeGenerator : MonoBehaviour
    
     private float spaceX = 0.4f;
 
-    private int maxBlockNum = 4;
+    private int maxBlockNum =  4;
 
     // Start is called before the first frame update
     void Start()
